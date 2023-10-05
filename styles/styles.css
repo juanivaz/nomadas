@@ -58,7 +58,7 @@ color: antiquewhite;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     display: flex ;
-    height: 77vh;
+    height: 57vh;
     justify-content:space-between;
     align-items: center;
     background-size: cover;
@@ -66,6 +66,11 @@ color: antiquewhite;
     }
 .color-inicio {
     color: aliceblue;
+    
+}
+.foto-logo{
+    width: 350px;
+    height: 350px;
 
 }
 .footer{
