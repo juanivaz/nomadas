@@ -1,0 +1,9 @@
+@mixin boton($color-fondo, $color-texto, $padding-horizontal, $padding-vertical) {
+    background-color: $color-fondo;
+    color: $color-texto;
+    padding: $padding-vertical $padding-horizontal;
+    border: none;
+    border-radius: 4px;
+}
+.boton {
+    @include boton(#6c757d, #fff, 12px, 6px);}

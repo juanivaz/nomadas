@@ -1,0 +1,81 @@
+.chalten {
+    margin: 20px 100px 55px 155px;
+   }
+   .video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+    margin-top: 10px;
+   }
+   .fuente1{
+    font-family: 'Raleway', sans-serif, Impact;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px ;
+    margin-bottom: 20px;
+    margin-left: 5px; 
+   }
+   h1{
+    margin-top: 2%;
+    color:#2c0071;
+    text-align: center;
+    text-decoration:none;
+   }
+   #equipaje {
+    color: whitesmoke;
+   }
+   .fuente{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+   .colores{
+    background-color: whitesmoke;
+    color: black;}
+    .video{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 15px 0;
+        margin-top: 10px;
+       }
+       @media (min-width: 378px) and ( max-width: 576px ) {
+        .orden{
+         display: block;
+        } 
+        .column{
+         flex: 100%;
+        }
+        .logo{
+         grid-template-columns: 1fr 1fr;   
+        }
+        h1 {
+         color: black;
+         font-family: cursive;
+         font-size: medium;
+        }
+        ul li{
+         display: block;
+        }
+        header{
+         height: auto;
+        }
+        }
+        a:hover{
+         font-weight: 700;
+         padding: 5px;
+         background-color: none;
+         color: green;
+        }
+        i:hover{
+         background-color: none;
+         padding: 5px;
+         color: red;
+        }
+        
+        
