@@ -311,7 +311,7 @@ img {
   margin-left: 200px;
 }
 
-@media (min-width: 378px) and (max-width: 576px) {
+@media (min-width: 480px) and (max-width: 768px) {
   .orden {
     display: block;
   }
@@ -467,7 +467,7 @@ h1 {
   h1 {
     color: black;
     font-family: cursive;
-    font-size: medium;
+    font-size: small;
   }
   ul li {
     display: block;
@@ -499,6 +499,7 @@ i:hover {
 .form-control {
   text-decoration: solid;
   background-color: burlywood;
+  margin-block-end: auto;
 }
 
 .boton {
